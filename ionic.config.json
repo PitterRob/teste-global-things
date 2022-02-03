@@ -1,5 +1,7 @@
 {
   "name": "teste-global-things",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

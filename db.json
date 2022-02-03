@@ -1,0 +1,122 @@
+{
+  "Category": [
+    {
+      "Id": 1,
+      "Name": "Trasnmutação"
+    },
+    {
+      "Id": 2,
+      "Name": "Psiquico"
+    },
+    {
+      "Id": 3,
+      "Name": "Artes Marciais"
+    },
+    {
+      "Id": 4,
+      "Name": "Super Força"
+    },
+    {
+      "Id": 5,
+      "Name": "Monstro"
+    },
+    {
+      "Id": 6,
+      "Name": "Artista"
+    },
+    {
+      "Id": 7,
+      "Name": "string"
+    },
+    {
+      "Id": 8,
+      "Name": "string"
+    },
+    {
+      "Id": 9,
+      "Name": "string"
+    },
+    {
+      "Id": 10,
+      "Name": "string"
+    },
+    {
+      "Id": 11,
+      "Name": "string"
+    },
+    {
+      "Id": 12,
+      "Name": "string"
+    },
+    {
+      "Id": 13,
+      "Name": "string"
+    },
+    {
+      "Id": 14,
+      "Name": "string"
+    },
+    {
+      "Id": 15,
+      "Name": "string"
+    },
+    {
+      "Id": 16,
+      "Name": "string"
+    },
+    {
+      "Id": 17,
+      "Name": "Teste Teste"
+    },
+    {
+      "Id": 18,
+      "Name": "Teste Teste"
+    },
+    {
+      "Id": 19,
+      "Name": "Teste Teste"
+    },
+    {
+      "Id": 20,
+      "Name": "Teste Teste"
+    },
+    {
+      "Id": 21,
+      "Name": "Teste Teste"
+    },
+    {
+      "Id": 22,
+      "Name": "Teste Teste"
+    },
+    {
+      "Id": 23,
+      "Name": "Teste Teste"
+    },
+    {
+      "Id": 24,
+      "Name": "Super Força"
+    },
+    {
+      "Id": 25,
+      "Name": "Trasnmutação"
+    },
+    {
+      "Id": 26,
+      "Name": "Trasnmutação"
+    }
+  ],
+  "Heroes": [
+    {
+      "Id": 317,
+      "Name": "Saitama",
+      "CategoryId": 4,
+      "Active": true
+    },
+    {
+      "Id": 368,
+      "Name": "All Might",
+      "CategoryId": 4,
+      "Active": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<ion-app>
+  <ion-toolbar color="primary">
+    <ion-title> Nova Categoria </ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-content>
+    <form [formGroup]="formulario">
+      <ion-card>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <ion-item>
+                  <ion-label position="floating">Nome *</ion-label>
+                  <ion-input formControlName="Name" type="text"></ion-input>
+                </ion-item>
+                <ng-container
+                  *ngIf="
+                    formulario.get('Name').invalid &&
+                    formulario.get('Name').touched
+                  "
+                >
+                  <span
+                    class="error ion-padding"
+                    *ngIf="formulario.get('Name').errors?.required"
+                  >
+                    Nome é obrigatório!
+                  </span>
+                </ng-container>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col>
+                <ion-button
+                  expand="block"
+                  color="medium"
+                  shape="round"
+                  [routerLink]="['/cadastro']"
+                  >Cancelar</ion-button
+                >
+              </ion-col>
+              <ion-col>
+                <ion-button
+                  expand="block"
+                  color="success"
+                  shape="round"
+                  fill="outline"
+                  (click)="salvar()"
+                  >Salvar</ion-button
+                >
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </form>
+  </ion-content>
+</ion-app>

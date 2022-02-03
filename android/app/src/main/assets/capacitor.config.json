@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.app",
+	"appName": "teste-global-things",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

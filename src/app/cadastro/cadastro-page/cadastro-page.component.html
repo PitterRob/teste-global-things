@@ -1,0 +1,35 @@
+<ion-app>
+  <ion-toolbar color="primary">
+    <ion-title>Cadastros</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+
+  <ion-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-text class="ion-text-center">
+            <h4>Selecione qual item cadastrar</h4>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button expand="block" color="primary" [routerLink]="['heroi']"
+            >Herói <ion-icon slot="end" name="accessibility-outline"></ion-icon
+          ></ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button
+            expand="block"
+            color="secondary"
+            [routerLink]="['categoria']"
+            >Categoria <ion-icon name="list-circle-outline"></ion-icon
+          ></ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-app>
